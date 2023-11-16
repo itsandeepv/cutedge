@@ -1,15 +1,52 @@
-
-
-.navbar-custom{
+.navbar-custom {
   background-color: green;
   color: white;
 }
-.navbar-custom .navbar-brand ,.nav-link{
+
+.navbar-custom .navbar-brand,
+.nav-link {
   color: white;
   font-weight: 600;
 }
 
-.btn-cus{
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.custom-btn {
+  padding: 8px 13px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn-around {
+  background: #3eea3e;
+  border: none;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+}
+
+.cutom-input {
+  max-width: 80px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.breadcrumb-cus {
+  box-shadow: 0 3px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+}
+
+.btn-cus {
   background-color: green;
   color: white;
   font-weight: 500;
@@ -17,11 +54,12 @@
   border-radius: 40px;
 
 }
-.pointer{
+
+.pointer {
   cursor: pointer !important;
 }
 
-.status-box{
+.status-box {
   background-color: rgb(11, 194, 11);
   color: white;
   border-radius: 40px;
@@ -30,7 +68,7 @@
   font-size: 14px;
 }
 
-.btn-cus2{
+.btn-cus2 {
   border: 2px solid green;
   color: green;
   font-weight: 500;
