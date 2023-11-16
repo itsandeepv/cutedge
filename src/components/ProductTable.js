@@ -72,7 +72,7 @@ function ProductTable() {
                     </button>
                 </div>
             </div>
-            <div>
+            <div style={{overflow:"scroll"}}>
                 <table className="table">
                     <thead className="table-light">
                         <tr>
